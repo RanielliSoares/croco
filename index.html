@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CROCO Odontologia | Excelência e Conforto em Sorocaba</title>
+<meta name="description" content="Clínica odontológica no Centro de Sorocaba: ortodontia, implantes, lentes de contato dental, clareamento, harmonização orofacial e odontopediatria. Agende pelo WhatsApp (15) 98155-9770."/>
+<meta name="theme-color" content="#461170"/>
+<meta property="og:title" content="CROCO Odontologia | Sorocaba"/>
+<meta property="og:description" content="Atendimento humanizado, ambiente sofisticado e especialistas no Centro de Sorocaba."/>
+<meta property="og:image" content="assets/img/recepcao.png"/>
+<meta property="og:locale" content="pt_BR"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23461170'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='34' text-anchor='middle' fill='%23ffdea0'%3EC%3C/text%3E%3C/svg%3E"/>
+<script>document.documentElement.classList.add('js');</script>
+<!-- Fontes -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&amp;family=Playfair+Display:ital,wght@1,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=block" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "primary-container": "#5e2d88",
+          "on-surface-variant": "#4c4450",
+          "surface-container-high": "#efe6e7",
+          "background": "#fff8f8",
+          "secondary": "#775a11",
+          "outline-variant": "#cec3d2",
+          "primary-fixed": "#f1daff",
+          "surface-container": "#f5eced",
+          "on-background": "#1e1b1c",
+          "surface-container-low": "#fbf1f2",
+          "secondary-container": "#fed581",
+          "inverse-primary": "#dfb7ff",
+          "secondary-fixed": "#ffdea0",
+          "primary-fixed-dim": "#dfb7ff",
+          "primary": "#461170",
+          "surface": "#fff8f8",
+          "surface-container-lowest": "#ffffff",
+          "on-surface": "#1e1b1c",
+          "outline": "#7d7481",
+          "on-secondary": "#ffffff",
+          "on-primary": "#ffffff",
+          "secondary-fixed-dim": "#e9c170"
+        },
+        spacing: {
+          "space-md": "1rem",
+          "space-xl": "2.5rem",
+          "margin": "2.5rem"
+        },
+        fontFamily: {
+          sans: ["Plus Jakarta Sans", "sans-serif"],
+          serif: ["Playfair Display", "serif"]
+        },
+        fontSize: {
+          "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }],
+          "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "700" }],
+          "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+          "headline-md": ["24px", { lineHeight: "32px", fontWeight: "600" }],
+          "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "700" }],
+          "label-sm": ["11px", { lineHeight: "16px", letterSpacing: "0.06em", fontWeight: "700" }],
+          "label-lg": ["15px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600" }],
+          "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+          "label-md": ["13px", { lineHeight: "18px", letterSpacing: "0.02em", fontWeight: "600" }],
+          "headline-lg": ["36px", { lineHeight: "44px", letterSpacing: "-0.015em", fontWeight: "700" }],
+          "display-lg-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "700" }],
+          "body-sm": ["14px", { lineHeight: "20px", fontWeight: "400" }]
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body class="bg-[#FCFBF9] font-sans text-on-surface antialiased selection:bg-secondary-fixed selection:text-primary">
+
+<!-- Ícones SVG reutilizáveis -->
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="i-whatsapp" viewBox="0 0 24 24">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="2" d="M7 2.5h10A4.5 4.5 0 0 1 21.5 7v10a4.5 4.5 0 0 1-4.5 4.5H7A4.5 4.5 0 0 1 2.5 17V7A4.5 4.5 0 0 1 7 2.5Z"/>
+    <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/>
+    <circle cx="17.4" cy="6.6" r="1.25"/>
+  </symbol>
+</svg>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header fixed top-0 inset-x-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0px_8px_24px_rgba(35,31,32,0.04)] transition-all duration-300" id="siteHeader">
+  <div class="header-inner flex justify-between items-center w-full px-space-md md:px-margin max-w-[1200px] mx-auto h-20">
+    <a class="flex items-center gap-3 group" href="#inicio" aria-label="CROCO Odontologia — início">
+      <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-sm border border-secondary-fixed/40 transition-transform duration-500 group-hover:rotate-[-8deg] group-hover:scale-105">
+        <span class="material-symbols-outlined icon-fill text-2xl text-secondary-fixed">dentistry</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-headline-md font-bold tracking-tight text-primary leading-none">CROCO</span>
+        <span class="text-label-sm text-secondary tracking-widest uppercase">Odontologia</span>
+      </div>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-7 xl:gap-8 text-label-md" aria-label="Principal">
+      <a class="nav-link" href="#sobre">Sobre nós</a>
+      <a class="nav-link" href="#tratamentos">Tratamentos</a>
+      <a class="nav-link" href="#estrutura">Estrutura</a>
+      <a class="nav-link" href="#avaliacoes">Avaliações</a>
+      <a class="nav-link" href="#contato">Contato</a>
+    </nav>
+
+    <div class="flex items-center gap-3 sm:gap-4">
+      <a class="hidden xl:flex items-center gap-2 text-label-md text-primary font-semibold hover:text-secondary transition-colors" href="tel:+5515981559770">
+        <span class="material-symbols-outlined text-secondary text-lg">call</span>
+        <span>(15) 98155-9770</span>
+      </a>
+      <a class="btn-shine btn-lift hidden sm:inline-flex items-center gap-2 bg-primary text-on-primary px-5 py-2.5 rounded-lg text-label-md font-bold hover:bg-[#4E2372] cove-glow" data-wa="Olá! Gostaria de agendar uma consulta na CROCO Odontologia." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-secondary-fixed"><use href="#i-whatsapp"/></svg>
+        <span>Agendar Consulta</span>
+      </a>
+      <button class="burger lg:hidden p-2 -mr-2 rounded-lg hover:bg-surface-container transition-colors" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Menu mobile -->
+  <div class="mobile-menu lg:hidden border-t border-outline-variant/30 bg-surface" id="mobileMenu">
+    <nav class="flex flex-col px-5 py-4 gap-1 text-body-md font-semibold text-primary" aria-label="Menu móvel">
+      <a class="py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#sobre">Sobre nós</a>
+      <a class="py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#tratamentos">Tratamentos</a>
+      <a class="py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#estrutura">Estrutura</a>
+      <a class="py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#avaliacoes">Avaliações</a>
+      <a class="py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#contato">Contato</a>
+      <a class="btn-wa mt-3 flex items-center justify-center gap-2 py-3.5 rounded-lg font-bold" data-wa="Olá! Gostaria de agendar uma consulta na CROCO Odontologia." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-xl"><use href="#i-whatsapp"/></svg>
+        Agendar pelo WhatsApp
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="pt-24 md:pt-28 overflow-hidden">
+
+<!-- ================= HERO ================= -->
+<section class="relative px-space-md md:px-margin max-w-[1200px] mx-auto py-12 md:py-20" id="inicio">
+  <div class="hero-blob absolute top-1/4 left-1/2 w-[650px] h-[350px] bg-secondary-fixed/30 blur-[130px] rounded-full pointer-events-none -z-10"></div>
+  <div class="hero-blob-2 absolute top-3/4 left-[85%] w-[420px] h-[320px] bg-primary-fixed/50 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <div class="lg:col-span-7 flex flex-col items-start gap-6">
+      <a class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-surface-container-low border border-outline-variant/30 ambient-card-shadow hover:border-secondary-fixed-dim transition-colors" data-reveal="down" href="#avaliacoes">
+        <span class="star-pop flex items-center text-amber-500">
+          <span class="material-symbols-outlined icon-fill text-sm">star</span>
+          <span class="material-symbols-outlined icon-fill text-sm">star</span>
+          <span class="material-symbols-outlined icon-fill text-sm">star</span>
+          <span class="material-symbols-outlined icon-fill text-sm">star</span>
+          <span class="material-symbols-outlined icon-fill text-sm">star</span>
+        </span>
+        <span class="text-label-sm text-primary font-bold uppercase tracking-wider">5.0 no Google · +630 avaliações</span>
+      </a>
+
+      <h1 class="text-display-lg-mobile md:text-display-lg text-primary tracking-tight leading-[1.12]" data-reveal="up" style="--reveal-delay:100ms">
+        Seu sorriso cuidado com <span class="shimmer-text italic font-serif pr-[3px]">excelência</span>, conforto e tecnologia no coração de Sorocaba.
+      </h1>
+
+      <p class="text-body-lg text-on-surface-variant max-w-xl" data-reveal="up" style="--reveal-delay:200ms">
+        Atendimento humanizado, ambiente sofisticado e uma equipe de especialistas pronta para transformar sua experiência odontológica.
+      </p>
+
+      <div class="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2" data-reveal="up" style="--reveal-delay:300ms">
+        <a class="btn-shine btn-lift btn-wa inline-flex items-center justify-center gap-3 px-7 py-4 sm:whitespace-nowrap rounded-lg text-label-lg font-bold group" data-wa="Olá! Gostaria de agendar uma avaliação na CROCO Odontologia." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+          <svg class="icon-svg text-2xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-[-10deg]"><use href="#i-whatsapp"/></svg>
+          <span>Agendar Avaliação via WhatsApp</span>
+        </a>
+        <a class="group link-arrow btn-lift inline-flex items-center justify-center gap-2 sm:whitespace-nowrap bg-surface-container-low hover:bg-surface-container text-primary border border-outline-variant/40 px-6 py-4 rounded-lg text-label-lg" href="#estrutura">
+          <span>Conhecer Nossa Estrutura</span>
+          <span class="material-symbols-outlined text-lg transition-transform duration-300 group-hover:translate-y-1">arrow_downward</span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-3 gap-3 sm:gap-6 pt-4 border-t border-outline-variant/25 w-full" data-reveal="up" style="--reveal-delay:400ms">
+        <div>
+          <p class="text-headline-sm text-primary font-bold"><span data-count="630" data-prefix="+">+630</span></p>
+          <p class="text-body-sm text-on-surface-variant">Avaliações 5 estrelas</p>
+        </div>
+        <div>
+          <p class="text-headline-sm text-primary font-bold"><span data-count="100" data-suffix="%">100%</span></p>
+          <p class="text-body-sm text-on-surface-variant">Climatizado e confortável</p>
+        </div>
+        <div>
+          <p class="text-headline-sm text-primary font-bold"><span data-count="19" data-prefix="Até " data-suffix="h">Até 19h</span></p>
+          <p class="text-body-sm text-on-surface-variant">Horário flexível</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual lg:col-span-5 relative w-full max-w-md mx-auto lg:max-w-none" data-reveal="zoom" style="--reveal-delay:200ms">
+      <div class="hero-frame absolute -inset-3 bg-gradient-to-tr from-secondary-container/50 via-surface-container-low to-primary-container/20 rounded-2xl -rotate-1 blur-sm"></div>
+      <div class="relative bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 ambient-card-shadow">
+        <div class="aspect-[4/5] w-full overflow-hidden relative">
+          <img alt="Recepção acolhedora e moderna da CROCO Odontologia em Sorocaba" class="w-full h-full object-cover scale-110" data-parallax="0.08" src="assets/img/recepcao.png" fetchpriority="high"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+        </div>
+        <div class="float-y absolute bottom-5 left-5 right-5 bg-surface/90 backdrop-blur-md p-4 rounded-xl border border-secondary-fixed/50 cove-glow flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-secondary-fixed/30 flex items-center justify-center text-secondary">
+              <span class="material-symbols-outlined icon-fill">spa</span>
+            </div>
+            <div>
+              <h4 class="text-label-md font-bold text-primary">Ambiente Terapêutico</h4>
+              <p class="text-label-sm font-medium text-on-surface-variant">Projetado contra o estresse dental</p>
+            </div>
+          </div>
+          <span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary text-[10px] font-bold tracking-wider uppercase hidden min-[380px]:inline-block">Exclusivo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAIXA DE TRATAMENTOS ================= -->
+<div class="bg-primary text-secondary-fixed py-4" aria-hidden="true">
+  <div class="marquee text-label-lg font-semibold tracking-wide uppercase">
+    <div class="marquee-track">
+      <span>Alinhadores Invisíveis</span><span>✦</span><span>Implantes</span><span>✦</span><span>Lentes de Contato Dental</span><span>✦</span><span>Clareamento a Laser</span><span>✦</span><span>Harmonização Orofacial</span><span>✦</span><span>Odontopediatria</span><span>✦</span>
+    </div>
+    <div class="marquee-track">
+      <span>Alinhadores Invisíveis</span><span>✦</span><span>Implantes</span><span>✦</span><span>Lentes de Contato Dental</span><span>✦</span><span>Clareamento a Laser</span><span>✦</span><span>Harmonização Orofacial</span><span>✦</span><span>Odontopediatria</span><span>✦</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= POR QUE ESCOLHER A CROCO ================= -->
+<section class="py-16 md:py-24 bg-surface-container-low border-b border-outline-variant/20" id="sobre">
+  <div class="px-space-md md:px-margin max-w-[1200px] mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-reveal="up">
+      <span class="block text-label-sm uppercase tracking-widest text-secondary font-bold">Diferenciais que encantam</span>
+      <h2 class="title-underline text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Por que confiar seu sorriso à CROCO Odontologia?</h2>
+      <p class="text-body-md text-on-surface-variant mt-6">Concebemos um conceito acolhedor que une hospitalidade, infraestrutura sofisticada e precisão biológica em cada detalhe.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      <article class="card bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/20 ambient-card-shadow flex flex-col justify-between group" data-reveal="up" style="--reveal-delay:0ms">
+        <div>
+          <div class="card-icon w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary">
+            <span class="material-symbols-outlined text-2xl">biotech</span>
+          </div>
+          <h3 class="text-headline-sm text-primary mb-3">Tecnologia de Ponta</h3>
+          <p class="text-body-sm text-on-surface-variant leading-relaxed">Diagnósticos digitais com escaneamento intraoral, lasers odontológicos e precisão que encurtam o tempo de tratamento.</p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-1.5 text-secondary text-label-sm font-bold">
+          <span>Biossegurança total</span><span class="material-symbols-outlined text-sm">verified</span>
+        </div>
+      </article>
+
+      <article class="card bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/20 ambient-card-shadow flex flex-col justify-between group" data-reveal="up" style="--reveal-delay:100ms">
+        <div>
+          <div class="card-icon w-12 h-12 rounded-xl bg-secondary-fixed/40 flex items-center justify-center text-secondary mb-6 group-hover:bg-secondary group-hover:text-on-secondary">
+            <span class="material-symbols-outlined text-2xl">favorite</span>
+          </div>
+          <h3 class="text-headline-sm text-primary mb-3">Atendimento Humanizado</h3>
+          <p class="text-body-sm text-on-surface-variant leading-relaxed">Escuta ativa, acolhimento genuíno e conforto absoluto para eliminar qualquer ansiedade desde a sua recepção.</p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-1.5 text-secondary text-label-sm font-bold">
+          <span>Zero trauma dental</span><span class="material-symbols-outlined text-sm">sentiment_satisfied</span>
+        </div>
+      </article>
+
+      <article class="card bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/20 ambient-card-shadow flex flex-col justify-between group" data-reveal="up" style="--reveal-delay:200ms">
+        <div>
+          <div class="card-icon w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary">
+            <span class="material-symbols-outlined text-2xl">hub</span>
+          </div>
+          <h3 class="text-headline-sm text-primary mb-3">Especialidades Integradas</h3>
+          <p class="text-body-sm text-on-surface-variant leading-relaxed">Da odontopediatria aos implantes complexos e estética do sorriso, solucionamos todas as demandas no mesmo lugar.</p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-1.5 text-secondary text-label-sm font-bold">
+          <span>Corpo clínico completo</span><span class="material-symbols-outlined text-sm">groups</span>
+        </div>
+      </article>
+
+      <article class="card bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/20 ambient-card-shadow flex flex-col justify-between group" data-reveal="up" style="--reveal-delay:300ms">
+        <div>
+          <div class="card-icon w-12 h-12 rounded-xl bg-secondary-fixed/40 flex items-center justify-center text-secondary mb-6 group-hover:bg-secondary group-hover:text-on-secondary">
+            <span class="material-symbols-outlined text-2xl">pin_drop</span>
+          </div>
+          <h3 class="text-headline-sm text-primary mb-3">Localização Privilegiada</h3>
+          <p class="text-body-sm text-on-surface-variant leading-relaxed">Situada no Centro de Sorocaba com fácil acesso, estacionamento facilitado e flexibilidade de horários até as 19h.</p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-1.5 text-secondary text-label-sm font-bold">
+          <span>Centro de Sorocaba</span><span class="material-symbols-outlined text-sm">near_me</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRATAMENTOS ================= -->
+<section class="py-16 md:py-24 px-space-md md:px-margin max-w-[1200px] mx-auto" id="tratamentos">
+  <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+    <div data-reveal="left">
+      <span class="block text-label-sm uppercase tracking-widest text-secondary font-bold">Cuidado clínico e estético</span>
+      <h2 class="title-underline left text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Tratamentos Personalizados</h2>
+    </div>
+    <p class="text-body-md text-on-surface-variant max-w-md" data-reveal="right">Procedimentos modernos guiados por protocolos minimamente invasivos que preservam sua saúde e realçam sua beleza única.</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:0ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-primary group-hover:bg-secondary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-5 group-hover:bg-primary group-hover:text-secondary-fixed">
+        <span class="material-symbols-outlined text-2xl icon-fill">dentistry</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Avançado</span>
+      <h3 class="text-headline-sm text-primary mb-3">Ortodontia &amp; Alinhadores Invisíveis</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Alinhamento estético de alta precisão com placas transparentes e aparelhos modernos quase imperceptíveis ao sorrir.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Quero saber mais sobre Ortodontia e Alinhadores Invisíveis." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:100ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-secondary group-hover:bg-primary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-secondary-fixed/30 flex items-center justify-center text-secondary mb-5 group-hover:bg-secondary group-hover:text-on-secondary">
+        <span class="material-symbols-outlined text-2xl">medical_services</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Reabilitação</span>
+      <h3 class="text-headline-sm text-primary mb-3">Implantes &amp; Próteses Dentárias</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Recupere o poder mastigatório e a autoestima com implantes de cicatrização rápida e próteses cerâmicas de acabamento natural.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Quero saber mais sobre Implantes e Próteses Dentárias." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:200ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-primary group-hover:bg-secondary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-5 group-hover:bg-primary group-hover:text-secondary-fixed">
+        <span class="material-symbols-outlined text-2xl">auto_fix_high</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Estética VIP</span>
+      <h3 class="text-headline-sm text-primary mb-3">Lentes de Contato Dental &amp; Facetas</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Transformação harmônica de formato, cor e proporção dos dentes com laminados cerâmicos ultrafinos de alta durabilidade.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Gostaria de avaliar Lentes de Contato Dental / Facetas." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:0ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-secondary group-hover:bg-primary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-secondary-fixed/30 flex items-center justify-center text-secondary mb-5 group-hover:bg-secondary group-hover:text-on-secondary">
+        <span class="material-symbols-outlined text-2xl">flare</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Luminosidade</span>
+      <h3 class="text-headline-sm text-primary mb-3">Clareamento Dental a Laser</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Tecnologia de fotoativação que proporciona dentes brilhantes e luminosos com máximo conforto e sem sensibilidade incômoda.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Gostaria de agendar um Clareamento Dental." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:100ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-primary group-hover:bg-secondary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-5 group-hover:bg-primary group-hover:text-secondary-fixed">
+        <span class="material-symbols-outlined text-2xl">face</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Harmonia Facial</span>
+      <h3 class="text-headline-sm text-primary mb-3">Harmonização Orofacial</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Equilíbrio e rejuvenescimento delicado do terço inferior da face, suavizando linhas e valorizando a moldura do seu sorriso.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Quero saber mais sobre Harmonização Orofacial." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-[#EAE4D9] ambient-card-shadow group overflow-hidden" data-tilt data-reveal="up" style="--reveal-delay:200ms">
+      <div class="card-bar absolute top-0 left-0 right-0 h-1 bg-secondary group-hover:bg-primary"></div>
+      <div class="card-icon w-12 h-12 rounded-xl bg-secondary-fixed/30 flex items-center justify-center text-secondary mb-5 group-hover:bg-secondary group-hover:text-on-secondary">
+        <span class="material-symbols-outlined text-2xl">child_care</span>
+      </div>
+      <span class="inline-block px-3 py-1 rounded-full bg-surface-container text-primary text-label-sm uppercase mb-3">Família toda</span>
+      <h3 class="text-headline-sm text-primary mb-3">Odontopediatria &amp; Clínica Geral</h3>
+      <p class="text-body-sm text-on-surface-variant leading-relaxed mb-6">Prevenção, profilaxia, restaurações e tratamentos infantis lúdicos com carinho para construir memórias positivas de saúde bucal.</p>
+      <a class="inline-flex items-center gap-2 text-label-md text-primary font-bold hover:text-secondary transition-colors" data-wa="Olá! Gostaria de uma consulta para minha família." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+        <svg class="icon-svg text-base text-[#25D366]"><use href="#i-whatsapp"/></svg>
+        <span>Consultar especialista</span>
+        <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </article>
+  </div>
+</section>
+
+<!-- ================= ESTRUTURA ================= -->
+<section class="py-16 md:py-24 bg-surface-container-low border-y border-outline-variant/30" id="estrutura">
+  <div class="px-space-md md:px-margin max-w-[1200px] mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-16" data-reveal="up">
+      <span class="block text-label-sm uppercase tracking-widest text-secondary font-bold">Instalações em Sorocaba</span>
+      <h2 class="title-underline text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Conheça Nossa Estrutura</h2>
+      <p class="text-body-md text-on-surface-variant mt-6">Um refúgio de tranquilidade no Centro da cidade. Ambientes projetados para oferecer uma experiência digna de boutique hotel com rigor clínico hospitalar.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+      <div class="flex flex-col gap-4" data-reveal="left">
+        <div class="photo-card relative rounded-2xl overflow-hidden border border-[#EAE4D9] ambient-card-shadow">
+          <div class="aspect-[4/5] sm:aspect-[4/3] md:aspect-[4/5] lg:aspect-[4/3] w-full overflow-hidden bg-surface-container">
+            <img alt="Fachada em tom violeta da CROCO Odontologia em Sorocaba" class="w-full h-full object-cover object-[50%_35%]" loading="lazy" src="assets/img/fachada.png"/>
+          </div>
+          <div class="photo-caption absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent text-white">
+            <span class="px-3 py-1 rounded-full bg-secondary-fixed text-primary font-bold text-label-sm uppercase tracking-wider mb-2 inline-block">Fachada icônica</span>
+            <h4 class="text-headline-sm text-white">Prédio próprio no Centro</h4>
+            <p class="text-body-sm text-gray-200 mt-1">Arquitetura singular em tom violeta marcante na R. Antônio Marquês Flôres, de fácil reconhecimento e acesso seguro.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 min-[420px]:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="feature-chip min-w-0 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20 flex items-center gap-3">
+            <span class="material-symbols-outlined text-secondary text-2xl flex-shrink-0">local_parking</span>
+            <div><h5 class="text-label-md font-bold text-primary">Estacionamento</h5><p class="text-body-sm text-on-surface-variant">Prático e acessível</p></div>
+          </div>
+          <div class="feature-chip min-w-0 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20 flex items-center gap-3">
+            <span class="material-symbols-outlined text-secondary text-2xl flex-shrink-0">security</span>
+            <div><h5 class="text-label-md font-bold text-primary">Acesso seguro</h5><p class="text-body-sm text-on-surface-variant">Portão e interfonia</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-4" data-reveal="right" style="--reveal-delay:150ms">
+        <div class="photo-card relative rounded-2xl overflow-hidden border border-[#EAE4D9] ambient-card-shadow">
+          <div class="aspect-[4/5] sm:aspect-[4/3] md:aspect-[4/5] lg:aspect-[4/3] w-full overflow-hidden bg-surface-container">
+            <img alt="Balcão de recepção com iluminação de LED da CROCO Odontologia" class="w-full h-full object-cover" loading="lazy" src="assets/img/recepcao.png"/>
+          </div>
+          <div class="photo-caption absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent text-white">
+            <span class="px-3 py-1 rounded-full bg-secondary-fixed text-primary font-bold text-label-sm uppercase tracking-wider mb-2 inline-block">Recepção &amp; lounge</span>
+            <h4 class="text-headline-sm text-white">Iluminação quente e conforto</h4>
+            <p class="text-body-sm text-gray-200 mt-1">Balcão em textura travertino com retroiluminação suave de LED, pisos amadeirados e poltronas confortáveis para seu bem-estar.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 min-[420px]:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="feature-chip min-w-0 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20 flex items-center gap-3">
+            <span class="material-symbols-outlined text-secondary text-2xl flex-shrink-0">ac_unit</span>
+            <div><h5 class="text-label-md font-bold text-primary">Salas climatizadas</h5><p class="text-body-sm text-on-surface-variant">Temperatura ideal</p></div>
+          </div>
+          <div class="feature-chip min-w-0 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20 flex items-center gap-3">
+            <span class="material-symbols-outlined text-secondary text-2xl flex-shrink-0">sanitizer</span>
+            <div><h5 class="text-label-md font-bold text-primary">Biossegurança</h5><p class="text-body-sm text-on-surface-variant">Esterilização estrita</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AVALIAÇÕES ================= -->
+<section class="py-16 md:py-24 px-space-md md:px-margin max-w-[1200px] mx-auto" id="avaliacoes">
+  <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-12 gap-6">
+    <div data-reveal="left">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed/40 text-secondary text-label-sm font-bold uppercase mb-2">
+        <span class="material-symbols-outlined icon-fill text-sm">verified</span><span>Verificado no Google Avaliações</span>
+      </div>
+      <h2 class="title-underline left text-headline-lg-mobile md:text-headline-lg text-primary">O que nossos pacientes dizem</h2>
+    </div>
+    <div class="flex items-center gap-4 bg-surface-container-lowest p-4 rounded-2xl border border-outline-variant/20 ambient-card-shadow" data-reveal="right">
+      <div class="text-center border-r border-outline-variant/30 pr-4">
+        <p class="text-display-lg-mobile text-primary font-bold leading-none"><span data-count="5" data-decimals="1">5.0</span></p>
+        <div class="star-pop flex text-amber-500 justify-center mt-1">
+          <span class="material-symbols-outlined icon-fill text-sm">star</span><span class="material-symbols-outlined icon-fill text-sm">star</span><span class="material-symbols-outlined icon-fill text-sm">star</span><span class="material-symbols-outlined icon-fill text-sm">star</span><span class="material-symbols-outlined icon-fill text-sm">star</span>
+        </div>
+      </div>
+      <div>
+        <p class="text-label-md font-bold text-on-surface">Excelência comprovada</p>
+        <p class="text-body-sm text-on-surface-variant">+630 avaliações em Sorocaba</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/25 ambient-card-shadow flex flex-col justify-between overflow-hidden" data-reveal="up" style="--reveal-delay:0ms">
+      <span class="quote-mark absolute -top-3 right-5 font-serif text-[120px] leading-none text-primary opacity-10 select-none" aria-hidden="true">“</span>
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex text-amber-500"><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span></div>
+          <span class="text-xs text-on-surface-variant flex items-center gap-1 font-medium"><span class="material-symbols-outlined text-xs text-emerald-600 icon-fill">check_circle</span>Google</span>
+        </div>
+        <p class="text-body-md text-on-surface italic leading-relaxed">“Clínica tudo de bom, Dras muito simpáticas, charmosas, recepção nota mil! 😍💜”</p>
+      </div>
+      <div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary">M</div>
+        <div><p class="text-label-md font-bold text-primary">Mariana Costa</p><p class="text-label-sm font-medium text-on-surface-variant">Paciente verificada</p></div>
+      </div>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/25 ambient-card-shadow flex flex-col justify-between overflow-hidden" data-reveal="up" style="--reveal-delay:120ms">
+      <span class="quote-mark absolute -top-3 right-5 font-serif text-[120px] leading-none text-primary opacity-10 select-none" aria-hidden="true">“</span>
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex text-amber-500"><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span></div>
+          <span class="text-xs text-on-surface-variant flex items-center gap-1 font-medium"><span class="material-symbols-outlined text-xs text-emerald-600 icon-fill">check_circle</span>Google</span>
+        </div>
+        <p class="text-body-md text-on-surface italic leading-relaxed">“Top a clínica, parabéns pra todos da equipe, super atenciosos e cuidadosos!”</p>
+      </div>
+      <div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-secondary-fixed/50 flex items-center justify-center font-bold text-secondary">R</div>
+        <div><p class="text-label-md font-bold text-primary">Rodrigo Almeida</p><p class="text-label-sm font-medium text-on-surface-variant">Paciente verificado</p></div>
+      </div>
+    </article>
+
+    <article class="card bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/25 ambient-card-shadow flex flex-col justify-between overflow-hidden md:col-span-2 lg:col-span-1" data-reveal="up" style="--reveal-delay:240ms">
+      <span class="quote-mark absolute -top-3 right-5 font-serif text-[120px] leading-none text-primary opacity-10 select-none" aria-hidden="true">“</span>
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex text-amber-500"><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span><span class="material-symbols-outlined icon-fill text-base">star</span></div>
+          <span class="text-xs text-on-surface-variant flex items-center gap-1 font-medium"><span class="material-symbols-outlined text-xs text-emerald-600 icon-fill">check_circle</span>Google</span>
+        </div>
+        <p class="text-body-md text-on-surface italic leading-relaxed">“Ótimo ambiente e ótimas profissionais. Recomendo de olhos fechados em Sorocaba.”</p>
+      </div>
+      <div class="mt-8 pt-4 border-t border-outline-variant/20 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary">C</div>
+        <div><p class="text-label-md font-bold text-primary">Camila Silveira</p><p class="text-label-sm font-medium text-on-surface-variant">Paciente verificada</p></div>
+      </div>
+    </article>
+  </div>
+
+  <div class="text-center mt-10" data-reveal="up">
+    <a class="link-arrow inline-flex items-center gap-2 text-label-md font-bold text-primary hover:text-secondary transition-colors" href="https://www.google.com/maps/search/?api=1&amp;query=CROCO+Odontologia+Sorocaba" rel="noopener noreferrer" target="_blank">
+      Ver todas as avaliações no Google <span class="card-arrow material-symbols-outlined text-base">arrow_forward</span>
+    </a>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="py-16 md:py-24 bg-surface-container-low border-t border-outline-variant/20 relative" id="contato">
+  <div class="px-space-md md:px-margin max-w-[1200px] mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div class="lg:col-span-5 flex flex-col justify-between" data-reveal="left">
+        <div>
+          <span class="block text-label-sm uppercase tracking-widest text-secondary font-bold">Venha nos visitar</span>
+          <h2 class="title-underline left text-headline-lg-mobile md:text-headline-lg text-primary mt-2 mb-8">Localização &amp; Atendimento</h2>
+          <p class="text-body-md text-on-surface-variant mb-8">Estamos prontos para acolher você e sua família no coração de Sorocaba. Agende sua consulta em segundos pelo WhatsApp ou envie uma mensagem direta.</p>
+
+          <div class="space-y-6">
+            <div class="contact-item flex items-start gap-4">
+              <div class="contact-icon w-11 h-11 rounded-xl bg-surface-container-lowest flex items-center justify-center text-secondary border border-outline-variant/30 flex-shrink-0">
+                <span class="material-symbols-outlined">location_on</span>
+              </div>
+              <div>
+                <h4 class="text-label-md font-bold text-primary">Endereço</h4>
+                <p class="text-body-sm text-on-surface mt-0.5">R. Antônio Marquês Flôres, 299 - Centro<br/>Sorocaba - SP, CEP 18035-130</p>
+                <a class="link-arrow inline-flex items-center gap-1.5 text-secondary text-label-sm font-bold mt-2 hover:underline" href="https://www.google.com/maps/search/?api=1&amp;query=R.+Ant%C3%B4nio+Marqu%C3%AAs+Fl%C3%B4res%2C+299+-+Centro%2C+Sorocaba+-+SP" rel="noopener noreferrer" target="_blank">
+                  <span>Ver no Google Maps</span><span class="card-arrow material-symbols-outlined text-sm">open_in_new</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item flex items-start gap-4">
+              <div class="contact-icon w-11 h-11 rounded-xl bg-surface-container-lowest flex items-center justify-center text-[#25D366] border border-outline-variant/30 flex-shrink-0">
+                <svg class="icon-svg text-[22px]"><use href="#i-whatsapp"/></svg>
+              </div>
+              <div>
+                <h4 class="text-label-md font-bold text-primary">Telefone &amp; WhatsApp</h4>
+                <a class="text-body-sm text-on-surface mt-0.5 font-semibold hover:text-secondary transition-colors" data-wa="Olá! Gostaria de mais informações sobre a CROCO Odontologia." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">(15) 98155-9770</a>
+                <p class="text-label-sm font-medium text-on-surface-variant">Respostas rápidas pela nossa recepção</p>
+              </div>
+            </div>
+
+            <div class="contact-item flex items-start gap-4">
+              <div class="contact-icon w-11 h-11 rounded-xl bg-surface-container-lowest flex items-center justify-center text-secondary border border-outline-variant/30 flex-shrink-0">
+                <span class="material-symbols-outlined">schedule</span>
+              </div>
+              <div>
+                <h4 class="text-label-md font-bold text-primary">Horário de funcionamento</h4>
+                <p class="text-body-sm text-on-surface mt-0.5">Segunda a sexta: até 19:00 <span class="font-bold" id="openStatus"></span><br/>Sábados: horários especiais sob agendamento</p>
+              </div>
+            </div>
+
+            <div class="contact-item flex items-start gap-4">
+              <div class="contact-icon w-11 h-11 rounded-xl bg-surface-container-lowest flex items-center justify-center text-secondary border border-outline-variant/30 flex-shrink-0">
+                <svg class="icon-svg text-[20px]"><use href="#i-instagram"/></svg>
+              </div>
+              <div>
+                <h4 class="text-label-md font-bold text-primary">Instagram</h4>
+                <a class="text-body-sm text-primary font-semibold hover:text-secondary transition-colors" href="https://instagram.com/crocoodontologia" rel="noopener noreferrer" target="_blank">@crocoodontologia</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8">
+          <a class="btn-lift inline-flex items-center justify-center gap-2 w-full py-3.5 px-6 rounded-lg bg-surface-container-lowest border border-secondary text-secondary font-bold text-label-md hover:bg-secondary hover:text-white transition-all" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+Ant%C3%B4nio+Marqu%C3%AAs+Fl%C3%B4res%2C+299+-+Centro%2C+Sorocaba+-+SP" rel="noopener noreferrer" target="_blank">
+            <span class="material-symbols-outlined text-lg">directions</span><span>Traçar rota via Google Maps</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7" data-reveal="right" style="--reveal-delay:120ms">
+        <div class="bg-surface-container-lowest p-6 sm:p-8 md:p-10 rounded-3xl border border-[#EAE4D9] ambient-card-shadow cove-glow">
+          <div class="mb-6">
+            <h3 class="text-headline-md text-primary">Pré-agende sua consulta</h3>
+            <p class="text-body-sm text-on-surface-variant mt-1">Preencha os campos abaixo e a conversa abre no WhatsApp com sua mensagem pronta para uma de nossas recepcionistas.</p>
+          </div>
+          <form class="space-y-5" id="bookingForm" novalidate>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div>
+                <label class="block text-label-sm text-on-surface-variant uppercase mb-2" for="name">Seu nome completo</label>
+                <input class="field w-full h-12 px-4 rounded-lg bg-white border border-[#DDD6C9] focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-body-md" id="name" name="name" placeholder="Ex: Ana Clara Souza" required autocomplete="name" type="text"/>
+              </div>
+              <div>
+                <label class="block text-label-sm text-on-surface-variant uppercase mb-2" for="phone">Telefone / WhatsApp</label>
+                <input class="field w-full h-12 px-4 rounded-lg bg-white border border-[#DDD6C9] focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-body-md" id="phone" name="phone" placeholder="(15) 99999-9999" required autocomplete="tel" inputmode="tel" maxlength="15" type="tel"/>
+              </div>
+            </div>
+            <div>
+              <label class="block text-label-sm text-on-surface-variant uppercase mb-2" for="treatment">Tratamento de interesse</label>
+              <select class="field w-full h-12 px-4 rounded-lg bg-white border border-[#DDD6C9] focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-body-md" id="treatment" name="treatment">
+                <option value="Ortodontia e Alinhadores Invisíveis">Ortodontia &amp; Alinhadores Invisíveis</option>
+                <option value="Implantes e Próteses Dentárias">Implantes &amp; Próteses Dentárias</option>
+                <option value="Lentes de Contato Dental e Facetas">Lentes de Contato Dental &amp; Facetas</option>
+                <option value="Clareamento Dental">Clareamento Dental a Laser</option>
+                <option value="Harmonização Orofacial">Harmonização Orofacial</option>
+                <option value="Odontopediatria e Clínica Geral">Odontopediatria &amp; Clínica Geral</option>
+                <option value="Avaliação geral / check-up" selected>Avaliação geral / check-up</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-label-sm text-on-surface-variant uppercase mb-2" for="message">Mensagem ou melhor horário (opcional)</label>
+              <textarea class="field w-full p-4 rounded-lg bg-white border border-[#DDD6C9] focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-body-md" id="message" name="message" placeholder="Conte-nos se prefere período da manhã, tarde ou final do dia..." rows="3"></textarea>
+            </div>
+            <div class="pt-2">
+              <button class="btn-shine btn-lift btn-wa w-full flex items-center justify-center gap-3 py-4 px-6 rounded-lg text-label-lg font-bold" type="submit">
+                <svg class="icon-svg text-2xl"><use href="#i-whatsapp"/></svg>
+                <span>Confirmar e agendar no WhatsApp</span>
+              </button>
+              <p class="text-center text-[12px] text-on-surface-variant mt-3 flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-sm text-emerald-600 icon-fill">lock</span>
+                Seus dados vão apenas para a conversa no WhatsApp da clínica.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <div class="mt-12 rounded-3xl overflow-hidden border border-[#EAE4D9] ambient-card-shadow h-[320px] md:h-[380px] bg-surface-container" data-reveal="up">
+      <iframe class="w-full h-full border-0" title="Mapa da CROCO Odontologia em Sorocaba" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://www.google.com/maps?q=R.+Ant%C3%B4nio+Marqu%C3%AAs+Fl%C3%B4res,+299+-+Centro,+Sorocaba+-+SP,+18035-130&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= WHATSAPP FLUTUANTE ================= -->
+<div class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-40 wa-enter">
+  <a aria-label="Fale conosco pelo WhatsApp" class="wa-float relative flex items-center gap-2.5 bg-[#25D366] text-white p-4 sm:px-5 sm:py-3.5 rounded-full" data-wa="Olá! Gostaria de tirar uma dúvida sobre a CROCO Odontologia." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">
+    <svg class="wa-icon icon-svg text-[28px]"><use href="#i-whatsapp"/></svg>
+    <span class="font-bold text-label-md hidden sm:inline">(15) 98155-9770</span>
+  </a>
+</div>
+
+<!-- Voltar ao topo -->
+<a class="to-top fixed bottom-24 right-6 sm:right-8 z-40 w-11 h-11 rounded-full bg-primary text-secondary-fixed flex items-center justify-center shadow-lg hover:bg-[#5e2d88]" href="#inicio" id="toTop" aria-label="Voltar ao topo">
+  <span class="material-symbols-outlined">arrow_upward</span>
+</a>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-surface-container border-t border-outline-variant/40">
+  <div class="w-full max-w-[1200px] mx-auto px-space-md md:px-margin py-space-xl">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
+      <div class="md:col-span-5 flex flex-col items-start gap-4">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+            <span class="material-symbols-outlined icon-fill text-xl text-secondary-fixed">dentistry</span>
+          </div>
+          <span class="text-headline-md font-bold text-primary">CROCO Odontologia</span>
+        </div>
+        <p class="text-body-sm text-on-surface-variant max-w-sm">Excelência técnica, tecnologia odontológica moderna e acolhimento humano em um espaço exclusivo no Centro de Sorocaba.</p>
+        <div class="flex items-center gap-3 text-primary">
+          <a class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center hover:bg-gradient-to-tr hover:from-[#f58529] hover:via-[#dd2a7b] hover:to-[#8134af] hover:text-white hover:-translate-y-1 transition-all duration-300" href="https://instagram.com/crocoodontologia" rel="noopener noreferrer" target="_blank" aria-label="Instagram">
+            <svg class="icon-svg text-lg"><use href="#i-instagram"/></svg>
+          </a>
+          <a class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-[#25D366] hover:bg-[#25D366] hover:text-white hover:-translate-y-1 transition-all duration-300" data-wa="Olá! Gostaria de agendar uma consulta." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp">
+            <svg class="icon-svg text-xl"><use href="#i-whatsapp"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-7 flex flex-wrap justify-between gap-8">
+        <div>
+          <h4 class="text-primary mb-4 text-sm font-bold uppercase tracking-wider">Navegação</h4>
+          <ul class="space-y-2.5 text-body-sm text-on-surface-variant">
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" href="#sobre">Sobre nós</a></li>
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" href="#tratamentos">Tratamentos</a></li>
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" href="#estrutura">Estrutura</a></li>
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" href="#avaliacoes">Depoimentos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-primary mb-4 text-sm font-bold uppercase tracking-wider">Atendimento</h4>
+          <ul class="space-y-2.5 text-body-sm text-on-surface-variant">
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" data-wa="Olá! Gostaria de agendar uma consulta." href="https://wa.me/5515981559770" rel="noopener noreferrer" target="_blank">Agendamento WhatsApp</a></li>
+            <li><a class="hover:text-secondary hover:pl-1 transition-all duration-200" href="tel:+5515981559770">(15) 98155-9770</a></li>
+            <li>R. Antônio Marquês Flôres, 299 - Centro</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-primary mb-4 text-sm font-bold uppercase tracking-wider">Horários</h4>
+          <p class="text-body-sm text-on-surface-variant">Seg - Sex: até 19:00<br/>Sáb: horários sob consulta</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-8 border-t border-outline-variant/30 flex flex-col sm:flex-row items-center justify-between text-body-sm text-on-surface-variant gap-4 text-center sm:text-left">
+      <span>© <span id="year">2026</span> CROCO Odontologia Sorocaba. Todos os direitos reservados.</span>
+      <a class="hover:text-secondary transition-colors" href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
